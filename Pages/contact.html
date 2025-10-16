@@ -1,1 +1,60 @@
+<!doctype html>
+<html lang="de">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/rokko_logo.png">
+<link rel="stylesheet" href="/assets/css/style.css">
+<title>ROKKO! Records</title>
+<title>Kontakt — ROKKO! Records</title></head>
+  <body>
+    
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="/"><img src="/assets/images/rokko_logo.png" alt="ROKKO! Records Logo"><strong>ROKKO! Records</strong></a>
+    <nav class="links" aria-label="primary">
+      <a href="/#releases">Releases</a>
+      <a href="/pages/artists.html">Artists</a>
+      <a href="/pages/discography.html">Diskographie</a>
+      <a href="/#videos">Videos</a>
+      <a href="/pages/contact.html">Kontakt</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen">Menu</button>
+  </div>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="mobile">
+    <a href="/#releases">Releases</a>
+    <a href="/pages/artists.html">Artists</a>
+    <a href="/pages/discography.html">Diskographie</a>
+    <a href="/#videos">Videos</a>
+    <a href="/pages/contact.html">Kontakt</a>
+  </nav>
+</header>
 
+    <main class="section">
+      <div class="container">
+        <h1 class="h2">Kontakt</h1>
+        <form class="box" style="padding:16px;" onsubmit="event.preventDefault(); alert('Kontaktformular-Handler einbinden.');">
+          <label class="p" for="name">Name</label>
+          <input id="name" name="name" required style="width:100%; padding:10px; border-radius:8px; border:1px solid var(--black); background: var(--sand); color:#111; margin-bottom:10px;">
+          <label class="p" for="email">Email</label>
+          <input id="email" name="email" type="email" required style="width:100%; padding:10px; border-radius:8px; border:1px solid var(--black); background: var(--sand); color:#111; margin-bottom:10px;">
+          <label class="p" for="msg">Nachricht</label>
+          <textarea id="msg" name="message" rows="5" required style="width:100%; padding:10px; border-radius:8px; border:1px solid var(--black); background: var(--sand); color:#111; margin-bottom:14px;"></textarea>
+          <button class="btn" type="submit">Senden</button>
+        </form>
+      </div>
+    </main>
+    
+<footer class="footer">
+  <div class="container">
+    <div class="p muted">© <span id="year"></span> ROKKO! Records</div>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/player.js"></script>
+<script src="/assets/js/lightbox.js"></script>
+<script src="/assets/js/video-hero.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  </body>
+</html>
