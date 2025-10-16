@@ -1,1 +1,180 @@
+<!doctype html>
+<html lang="de">
+  <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/assets/images/rokko_logo.png">
+<link rel="stylesheet" href="/assets/css/style.css">
+<title>ROKKO! Records</title>
+</head>
+  <body>
+    
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="/"><img src="/assets/images/rokko_logo.png" alt="ROKKO! Records Logo"><strong>ROKKO! Records</strong></a>
+    <nav class="links" aria-label="primary">
+      <a href="/#releases">Releases</a>
+      <a href="/pages/artists.html">Artists</a>
+      <a href="/pages/discography.html">Diskographie</a>
+      <a href="/#videos">Videos</a>
+      <a href="/pages/contact.html">Kontakt</a>
+    </nav>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menü öffnen">Menu</button>
+  </div>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="mobile">
+    <a href="/#releases">Releases</a>
+    <a href="/pages/artists.html">Artists</a>
+    <a href="/pages/discography.html">Diskographie</a>
+    <a href="/#videos">Videos</a>
+    <a href="/pages/contact.html">Kontakt</a>
+  </nav>
+</header>
 
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-video box">
+            <video src="/assets/movies/intro_movie.mp4" autoplay muted loop playsinline preload="metadata"></video>
+            <button class="sound-toggle" type="button">Sound: Off</button>
+          </div>
+          <div>
+            <div class="badge">New</div>
+            <h1 class="h1">Label, Artists, Releases — klar strukturiert.</h1>
+            <p class="p">Eigene Farben, eigene Bilder. Struktur wie Soundlab, aber vollständig ROKKO!.</p>
+            <div style="display:flex; gap:10px; margin-top:10px;">
+              <a class="btn" href="#releases">Releases</a>
+              <a class="btn ghost" href="/pages/artists.html">Artists</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="releases" class="section">
+        <div class="container">
+          <h2 class="h2">Aktuelle Releases</h2>
+          <div class="grid grid-3" style="margin-top:16px;">
+            
+            <article class="box card">
+              <div class="thumb"><img src="/assets/images/placeholder.svg" alt="Cover placeholder"></div>
+              <div class="body">
+                <h3 class="title">Release 1</h3>
+                <div class="meta">Artist • Single</div>
+                <div class="player" data-src="/assets/audio/dummy.m4a">
+                  <button class="play" type="button">Play</button>
+                  <progress max="1" value="0"></progress>
+                  <span class="time">0:00 / 0:00</span>
+                </div>
+              </div>
+            </article>
+            
+            <article class="box card">
+              <div class="thumb"><img src="/assets/images/placeholder.svg" alt="Cover placeholder"></div>
+              <div class="body">
+                <h3 class="title">Release 2</h3>
+                <div class="meta">Artist • Single</div>
+                <div class="player" data-src="/assets/audio/dummy.m4a">
+                  <button class="play" type="button">Play</button>
+                  <progress max="1" value="0"></progress>
+                  <span class="time">0:00 / 0:00</span>
+                </div>
+              </div>
+            </article>
+            
+            <article class="box card">
+              <div class="thumb"><img src="/assets/images/placeholder.svg" alt="Cover placeholder"></div>
+              <div class="body">
+                <h3 class="title">Release 3</h3>
+                <div class="meta">Artist • Single</div>
+                <div class="player" data-src="/assets/audio/dummy.m4a">
+                  <button class="play" type="button">Play</button>
+                  <progress max="1" value="0"></progress>
+                  <span class="time">0:00 / 0:00</span>
+                </div>
+              </div>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="artists" class="section">
+        <div class="container">
+          <h2 class="h2">Artists</h2>
+          <div class="grid grid-3" style="margin-top:16px;">
+            
+            <article class="box card">
+              <div class="thumb"><img src="/assets/images/placeholder.svg" alt="Artist placeholder"></div>
+              <div class="body">
+                <h3 class="title">Artist 1</h3>
+                <div class="meta">Genre</div>
+                <a class="btn" href="/pages/artists.html">Mehr</a>
+              </div>
+            </article>
+            
+            <article class="box card">
+              <div class="thumb"><img src="/assets/images/placeholder.svg" alt="Artist placeholder"></div>
+              <div class="body">
+                <h3 class="title">Artist 2</h3>
+                <div class="meta">Genre</div>
+                <a class="btn" href="/pages/artists.html">Mehr</a>
+              </div>
+            </article>
+            
+            <article class="box card">
+              <div class="thumb"><img src="/assets/images/placeholder.svg" alt="Artist placeholder"></div>
+              <div class="body">
+                <h3 class="title">Artist 3</h3>
+                <div class="meta">Genre</div>
+                <a class="btn" href="/pages/artists.html">Mehr</a>
+              </div>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="h2">Über</h2>
+          <p class="p">Skeleton-Seite. Ersetze Platzhalter durch dein Material. Farben/Typo konfigurierbar in <code>assets/css/style.css</code>.</p>
+        </div>
+      </section>
+
+      <section id="videos" class="section">
+        <div class="container">
+          <h2 class="h2">Videos</h2>
+          <div class="grid grid-3" style="margin-top:16px;">
+            
+            <div class="youtube-thumb" data-youtube="Rh53YVgsfJ4">
+              <img src="/assets/images/placeholder.svg" alt="YouTube Thumbnail">
+              <span class="playtag">Play</span>
+            </div>
+            
+            <div class="youtube-thumb" data-youtube="Rh53YVgsfJ4">
+              <img src="/assets/images/placeholder.svg" alt="YouTube Thumbnail">
+              <span class="playtag">Play</span>
+            </div>
+            
+            <div class="youtube-thumb" data-youtube="Rh53YVgsfJ4">
+              <img src="/assets/images/placeholder.svg" alt="YouTube Thumbnail">
+              <span class="playtag">Play</span>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+    
+<footer class="footer">
+  <div class="container">
+    <div class="p muted">© <span id="year"></span> ROKKO! Records</div>
+  </div>
+</footer>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/player.js"></script>
+<script src="/assets/js/lightbox.js"></script>
+<script src="/assets/js/video-hero.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+
+  </body>
+</html>
