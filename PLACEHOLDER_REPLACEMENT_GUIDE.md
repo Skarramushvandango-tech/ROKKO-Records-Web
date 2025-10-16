@@ -2,6 +2,13 @@
 
 This guide provides step-by-step instructions for replacing all placeholder content with your real content.
 
+## Important: About the Placeholder Files
+
+The placeholder image files are SVG graphics (vector images) saved with .jpg/.png extensions. This is intentional to make replacement easier:
+- You can simply replace them with your actual JPG or PNG images
+- Keep the same filenames for easy replacement
+- The browser will correctly display both the SVG placeholders and your real images
+
 ## Quick Checklist
 
 - [ ] Replace logo image

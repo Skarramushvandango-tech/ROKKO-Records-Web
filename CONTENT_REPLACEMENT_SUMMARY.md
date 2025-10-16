@@ -30,21 +30,25 @@ This repository now contains a complete, professional website for ROKKO Records 
 
 ```
 images/
-├── logo-placeholder.png          ← Your logo
-├── hero-placeholder.jpg          ← Hero banner
-├── artist1-placeholder.jpg       ← Artist 1 photo
-├── artist2-placeholder.jpg       ← Artist 2 photo
-├── artist3-placeholder.jpg       ← Artist 3 photo
-├── album1-placeholder.jpg        ← Album 1 cover
-├── album2-placeholder.jpg        ← Album 2 cover
-├── album3-placeholder.jpg        ← Album 3 cover
-└── about-placeholder.jpg         ← About section image
+├── logo-placeholder.png          ← Your logo (currently SVG placeholder)
+├── hero-placeholder.jpg          ← Hero banner (currently SVG placeholder)
+├── artist1-placeholder.jpg       ← Artist 1 photo (currently SVG placeholder)
+├── artist2-placeholder.jpg       ← Artist 2 photo (currently SVG placeholder)
+├── artist3-placeholder.jpg       ← Artist 3 photo (currently SVG placeholder)
+├── album1-placeholder.jpg        ← Album 1 cover (currently SVG placeholder)
+├── album2-placeholder.jpg        ← Album 2 cover (currently SVG placeholder)
+├── album3-placeholder.jpg        ← Album 3 cover (currently SVG placeholder)
+└── about-placeholder.jpg         ← About section image (currently SVG placeholder)
 
 sounds/
-├── track1-placeholder.mp3        ← Track 1 preview
-├── track2-placeholder.mp3        ← Track 2 preview
-└── track3-placeholder.mp3        ← Track 3 preview
+├── track1-placeholder.mp3        ← Track 1 preview (currently empty)
+├── track2-placeholder.mp3        ← Track 2 preview (currently empty)
+└── track3-placeholder.mp3        ← Track 3 preview (currently empty)
 ```
+
+**Note**: The placeholder image files are currently SVG graphics with .jpg/.png extensions. 
+This is intentional - you can simply replace them with your actual JPG or PNG images 
+using the same filenames. The browser will display them correctly regardless.
 
 ## Placeholders to Replace
 

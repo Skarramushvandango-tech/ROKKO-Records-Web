@@ -37,6 +37,10 @@ ROKKO-Records-Web/
 
 ## 🔄 How to Replace Placeholders with Real Content
 
+### Important Note About Placeholders
+
+The placeholder images are SVG graphics saved with .jpg/.png extensions. This is intentional to make replacement easier - you can simply overwrite them with your actual JPG or PNG images using the same filenames.
+
 ### Images
 
 1. **Logo** (`images/logo-placeholder.png`):
