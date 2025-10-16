@@ -1,0 +1,6 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="400" fill="#805ad5"/>
+  <rect x="50" y="50" width="500" height="300" rx="15" fill="#9f7aea"/>
+  <text x="50%" y="45%" font-family="Arial" font-size="32" fill="white" text-anchor="middle" dy=".3em" font-weight="bold">About Us Image</text>
+  <text x="50%" y="55%" font-family="Arial" font-size="18" fill="white" text-anchor="middle" dy=".3em">Replace with team or studio photo</text>
+</svg>

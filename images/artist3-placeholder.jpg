@@ -1,0 +1,7 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#1a202c"/>
+  <circle cx="200" cy="150" r="60" fill="#2d3748"/>
+  <rect x="140" y="220" width="120" height="60" rx="10" fill="#2d3748"/>
+  <text x="50%" y="75%" font-family="Arial" font-size="24" fill="white" text-anchor="middle" dy=".3em">Artist 3</text>
+  <text x="50%" y="85%" font-family="Arial" font-size="16" fill="white" text-anchor="middle" dy=".3em">Photo Placeholder</text>
+</svg>

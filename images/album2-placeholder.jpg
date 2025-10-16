@@ -1,0 +1,8 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#3182ce"/>
+  <rect x="100" y="100" width="200" height="200" rx="20" fill="#63b3ed"/>
+  <circle cx="200" cy="200" r="40" fill="#3182ce"/>
+  <polygon points="185,185 185,215 215,200" fill="white"/>
+  <text x="50%" y="85%" font-family="Arial" font-size="20" fill="white" text-anchor="middle" dy=".3em">Album 2</text>
+  <text x="50%" y="92%" font-family="Arial" font-size="14" fill="white" text-anchor="middle" dy=".3em">Cover Placeholder</text>
+</svg>

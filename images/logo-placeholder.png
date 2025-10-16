@@ -1,0 +1,5 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#ff6b35"/>
+  <text x="50%" y="50%" font-family="Arial" font-size="24" fill="white" text-anchor="middle" dy=".3em">ROKKO</text>
+  <text x="50%" y="65%" font-family="Arial" font-size="16" fill="white" text-anchor="middle" dy=".3em">LOGO</text>
+</svg>
